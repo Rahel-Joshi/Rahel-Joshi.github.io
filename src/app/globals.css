@@ -8,47 +8,22 @@
   }
 }
 
-.image-under {
+.image {
   position: relative;
   text-decoration: underline;
   padding: 5px;
   border-bottom:2px solid white;
-  /* border-radius: 50%; */
-  /* padding: -100px; */
-  /* border-bottom-width: 2px; */
-  /* border-spacing: 20px; */
-  /* padding-bottom: 10px; */
 }
 
-.image-container {
-  /* position: relative; Default value */
-  /* z-index: -1; Ensure it is behind */
-}
-
-.image-under:hover {
+.image:hover {
   transition: .3s;
   border-bottom:2px solid #3b82f6;
-  /* filter: hue-rotate(180deg); */
-  /* background-image: url('/github.png'); Path to your image */
-  /* background-size: cover;  */
-  /* content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #007bff; Change to your desired color */
 }
-/* 
-.image-under:click {
-
-} */
 
 .link {
   color: inherit;
   transition: color 0.3s;
   text-decoration: underline;
-  /* padding: 0.5rem; */
   text-underline-offset: 4px;
 }
 

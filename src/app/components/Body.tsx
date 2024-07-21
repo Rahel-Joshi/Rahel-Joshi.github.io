@@ -75,14 +75,14 @@ export const Body: React.FC = () => {
                         <img 
                         src="/github.png" 
                         alt="Github" 
-                        className="image-under w-32 h-32 mx-auto mb-4" 
+                        className="image w-32 h-32 mx-auto mb-4" 
                         />
                     </a>
                     <a href='https://www.linkedin.com/in/rahel-j-49a55a236/' target="_blank">
                         <img 
                         src="/in.png" 
                         alt="Linkedin" 
-                        className="w-32 h-32 mx-auto mb-4 image-under" 
+                        className="w-32 h-32 mx-auto mb-4 image" 
                         />
                     </a>
                 </div>

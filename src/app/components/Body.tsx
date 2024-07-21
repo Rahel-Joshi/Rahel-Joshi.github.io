@@ -103,26 +103,27 @@ export const Body: React.FC = () => {
                 </div>
 
 
-    <div className="container mx-auto px-4 py-12">
-      <div className="flex justify-center gap-10">
-        <div className="">
-          <h3 className="text-center text-3xl font-semibold mb-2">Courses Taken</h3>
-          <ul className="list-disc list-inside">
-            {coursesTaken.map((language, index) => (
-              <li key={index}>{language}</li>
-            ))}
-          </ul>
-        </div>
-        <div className="">
-          <h3 className="text-center text-3xl font-semibold mb-2">Courses Planned Before Summer 2025</h3>
-          <ul className="list-disc list-inside">
-            {coursesPlanned.map((tool, index) => (
-              <li key={index}>{tool}</li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    </div>
+                <div className="container mx-auto px-4 py-12">
+                    <div className="flex justify-center gap-10">
+                        <div className="">
+                            <h3 className="text-center text-3xl font-semibold mb-2">Courses Taken</h3>
+                            <ul className="list-disc list-inside">
+                                {coursesTaken.map((language, index) => (
+                                <li key={index}>{language}</li>
+                                ))}
+                            </ul>
+                        </div>
+                        <div className="">
+                            <h3 className="text-center text-3xl font-semibold mb-2">Courses Planned Before Summer 2025</h3>
+                            <ul className="list-disc list-inside">
+                                {coursesPlanned.map((tool, index) => (
+                                <li key={index}>{tool}</li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </section>
         </div>
     );

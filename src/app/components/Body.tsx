@@ -64,10 +64,10 @@ export const Body: React.FC = () => {
             <section className="rounded-lg p-6">
                 <h2 className="flex items-center justify-center text-3xl font-semibold mb-4">About Me</h2>
                 <p className="text-lg mx-auto max-w-prose w text-center">
-                    Hi, I'm Rahel, a second-year student at Caltech studying computer science. I am currently looking for
-                    internships and opportunities in industry. I'm currently working at Caltech as an Undergraduate Research
+                    Hi, I&#39;m Rahel, a second-year student at Caltech studying computer science. I am currently looking for
+                    internships and opportunities in industry. I&#39;m currently working at Caltech as an Undergraduate Research
                     Fellow in the High Energy Astrophysics Group, using Python and Pytorch to emulate X-Ray Spectra from Black Holes
-                    and Neutron Stars collected by NASA/JPL/Caltech's NuSTAR [<a href="/SURF_2024_Proposal.pdf" target="_blank" className="link">Proposal</a>, <a href="/SURF_Report_1.pdf" target="_blank" className="link">Report 1</a>].
+                    and Neutron Stars collected by NASA/JPL/Caltech&#39;s NuSTAR [<a href="/SURF_2024_Proposal.pdf" target="_blank" className="link">Proposal</a>, <a href="/SURF_Report_1.pdf" target="_blank" className="link">Report 1</a>].
                     If you see anything interesting here or on my <a href="/Rahel_Joshi_s_Resume_2024.pdf" target="_blank" className="link">resume</a>, please reach out to me on <a href='https://www.linkedin.com/in/rahel-j-49a55a236/' target="_blank" className="link">LinkedIn</a> or at <a href="mailto:rrjoshi@caltech.edu" className="link">rrjoshi@caltech.edu</a>.
                 </p>
                 <div className='flex items-center justify-center gap-20 py-8'>

@@ -5,16 +5,8 @@ import {Body} from "./components/Body"
 export default function Home() {
   return (
       <div>
-
-        <div>
-          <Header/>
-        </div>
-
-        <div>
-          <Body/>
-        </div>
-
+        <Header/>
+        <Body/>
       </div>
-
   );
 }

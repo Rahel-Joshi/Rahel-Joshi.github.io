@@ -53,7 +53,7 @@ const programmingLanguages = [
     "CS 148: Large Language & Vision Models",
     "CS 155: Machine Learning & Data Mining",
     "CS 156ab: Learning Systems, Intro to Machine Learning",
-    "Ma 2: Differntial Equations",
+    "Ma 2: Differential Equations",
     "Ma 6a: Discrete Math",
     "ACM 104: Applied Linear Algebra",
   ]
@@ -122,6 +122,11 @@ export const Body: React.FC = () => {
                             </ul>
                         </div>
                     </div>
+                </div>
+
+                <div className="flex justify-center container mx-auto py-10">
+
+                    <a className="link" target="_blank" href="https://github.com/Rahel-Joshi/Rahel-Joshi.github.io">Website Source Code</a>
                 </div>
 
             </section>

@@ -61,10 +61,10 @@ const programmingLanguages = [
 
 export const Body: React.FC = () => {
     return (
-        <div className="flex items-center justify-center bg-color mx-auto px-4 pt-32">
+        <div className="flex items-center justify-center bg-color mx-auto px-4 pt-32 text-white">
             <section>
-                <h2 className="flex items-center justify-center text-3xl font-semibold mb-4">About Me</h2>
-                <p className="text-lg mx-auto max-w-prose w text-center">
+                <h2 className="flex items-center justify-center text-3xl font-semibold mb-4 text-white">About Me</h2>
+                <p className="text-lg mx-auto max-w-prose w text-center text-white">
                     Hi, I&#39;m Rahel, a second-year student at Caltech studying computer science. I am currently looking for
                     internships and opportunities in industry. I&#39;m currently working at Caltech as an Undergraduate Research
                     Fellow in the High Energy Astrophysics Group, using Python and Pytorch to emulate X-Ray Spectra from Black Holes

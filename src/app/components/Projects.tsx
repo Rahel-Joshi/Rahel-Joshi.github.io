@@ -6,9 +6,9 @@ export const Projects: React.FC = () => {
         <div className="bg-color flex items-center flex-col px-4">
 
             <h2 className="flex items-center justify-center text-3xl font-semibold mb-10">Projects</h2>
-            <div className="hd-color rounded-lg p-8 pt-4">
+            <div className="rounded-lg p-8 pt-4" style={{ backgroundColor: '#303f70'}}>
                 <h2 className="flex items-center justify-center text-2xl font-semibold mb-5">ECG Sonification</h2>
-                <div className="flex flex-row items-start w-full max-w-5xl gap-8">
+                <div className="flex flex-col lg:flex-row items-start w-full max-w-5xl gap-8">
                     <div className="flex-shrink-0 w-full max-w-xl bg-gray-200 border border-gray-300 rounded-md overflow-hidden">
                         <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                             <video className="absolute top-0 left-0 w-full h-full" controls>

@@ -71,7 +71,7 @@ export const Body: React.FC = () => {
                     and Neutron Stars collected by NASA/JPL/Caltech&#39;s NuSTAR [<a href="/SURF_2024_Proposal.pdf" target="_blank" className="link">Proposal</a>, <a href="/SURF_Report_1.pdf" target="_blank" className="link">Report 1</a>].
                     If you see anything interesting here or on my <a href="/Rahel_Joshi_s_Resume_2024.pdf" target="_blank" className="link">resume</a>, please reach out to me on <a href='https://www.linkedin.com/in/rahel-j-49a55a236/' target="_blank" className="link">LinkedIn</a> or at <a href="mailto:rrjoshi@caltech.edu" className="link">rrjoshi@caltech.edu</a>.
                 </p>
-                <div className='flex flex-col sm:flex-row justify-center gap-20 py-8'>
+                <div className='flex items-center flex-col md:flex-row justify-center gap-20 py-8'>
                     <img 
                         src="/pic.png" 
                         alt="Picture" 

@@ -27,7 +27,7 @@ export const Projects: React.FC = () => {
                 <p className="pt-6 text-white">Tech Stack: Python, Jupyter Notebook, Matplotlib, Numpy, Seaborn, Pandas, Scipy, Scikit-learn, Scikit-image</p>
             </div>
 
-            <div className="flex justify-center container mx-auto py-12">
+            <div className="flex justify-center container mx-auto py-12 text-white">
                 <a className="link text-white" target="_blank" href="https://github.com/Rahel-Joshi/Rahel-Joshi.github.io">Website Source Code</a>
             </div>
                 

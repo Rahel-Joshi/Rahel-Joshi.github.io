@@ -5,9 +5,9 @@ export const Projects: React.FC = () => {
     return (
         <div className="bg-color flex items-center flex-col px-4">
 
-            <h2 className="flex items-center justify-center text-3xl font-semibold mb-10">Projects</h2>
+            <h2 className="flex items-center justify-center text-3xl font-semibold mb-10 text-white">Projects</h2>
             <div className="rounded-lg p-8 pt-4" style={{ backgroundColor: '#303f70'}}>
-                <h2 className="flex items-center justify-center text-2xl font-semibold mb-5">ECG Sonification</h2>
+                <h2 className="flex items-center justify-center text-2xl font-semibold mb-5 text-white">ECG Sonification</h2>
                 <div className="flex flex-col lg:flex-row items-center w-full max-w-5xl gap-8">
                     <div className="flex-shrink-0 w-full max-w-xl bg-gray-200 border border-gray-300 rounded-md overflow-hidden">
                         <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
@@ -28,7 +28,7 @@ export const Projects: React.FC = () => {
             </div>
 
             <div className="flex justify-center container mx-auto py-12">
-                <a className="link" target="_blank" href="https://github.com/Rahel-Joshi/Rahel-Joshi.github.io">Website Source Code</a>
+                <a className="link text-white" target="_blank" href="https://github.com/Rahel-Joshi/Rahel-Joshi.github.io">Website Source Code</a>
             </div>
                 
         </div>

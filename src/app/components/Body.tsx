@@ -33,7 +33,8 @@ const programmingLanguages = [
     "BeautifulSoup",
     "Selenium",
     "Next.js",
-    "React"
+    "React",
+    "Node.js"
   ];
 
   const coursesTaken = [

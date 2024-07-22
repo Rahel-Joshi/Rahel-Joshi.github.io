@@ -62,7 +62,7 @@ const programmingLanguages = [
 export const Body: React.FC = () => {
     return (
         <div className="flex items-center justify-center bg-color mx-auto px-4 pt-32">
-            <section className="rounded-lg p-6">
+            <section>
                 <h2 className="flex items-center justify-center text-3xl font-semibold mb-4">About Me</h2>
                 <p className="text-lg mx-auto max-w-prose w text-center">
                     Hi, I&#39;m Rahel, a second-year student at Caltech studying computer science. I am currently looking for
@@ -71,31 +71,31 @@ export const Body: React.FC = () => {
                     and Neutron Stars collected by NASA/JPL/Caltech&#39;s NuSTAR [<a href="/SURF_2024_Proposal.pdf" target="_blank" className="link">Proposal</a>, <a href="/SURF_Report_1.pdf" target="_blank" className="link">Report 1</a>].
                     If you see anything interesting here or on my <a href="/Rahel_Joshi_s_Resume_2024.pdf" target="_blank" className="link">resume</a>, please reach out to me on <a href='https://www.linkedin.com/in/rahel-j-49a55a236/' target="_blank" className="link">LinkedIn</a> or at <a href="mailto:rrjoshi@caltech.edu" className="link">rrjoshi@caltech.edu</a>.
                 </p>
-                <div className='flex items-center justify-center gap-20 py-8'>
+                <div className='flex flex-col sm:flex-row justify-center gap-20 py-8'>
                     <img 
                         src="/pic.png" 
                         alt="Picture" 
-                        className="w-32 h-32" 
+                        className="w-32 h-32 mx-auto sm:mx-0" 
                     />
                     <a href='https://github.com/Rahel-Joshi' target="_blank">
                         <img 
                         src="/github-blue.png" 
                         alt="Github" 
-                        className="image w-32 h-32 mx-auto mb-4" 
+                        className="image w-32 h-32 mx-auto sm:mx-0 mb-4 sm:mb-0" 
                         />
                     </a>
                     <a href='https://www.linkedin.com/in/rahel-j-49a55a236/' target="_blank">
                         <img 
                         src="/blue-in.png" 
                         alt="Linkedin" 
-                        className="w-32 h-32 mx-auto mb-4 image" 
+                        className="w-32 h-32 mx-auto sm:mx-0 mb-4 sm:mb-0 image" 
                         />
                     </a>
 
                     <img 
                         src="/caltech.png" 
                         alt="Caltech" 
-                        className="w-32 h-32" 
+                        className="w-32 h-32 mx-auto sm:mx-0" 
                     />
                 </div>
                 <h2 className="flex items-center justify-center text-3xl font-semibold mb-4">Skills</h2>
@@ -134,11 +134,6 @@ export const Body: React.FC = () => {
                             </ul>
                         </div>
                     </div>
-                </div>
-
-                <div className="flex justify-center container mx-auto py-10">
-
-                    <a className="link" target="_blank" href="https://github.com/Rahel-Joshi/Rahel-Joshi.github.io">Website Source Code</a>
                 </div>
 
             </section>

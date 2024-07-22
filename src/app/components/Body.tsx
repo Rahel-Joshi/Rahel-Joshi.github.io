@@ -61,7 +61,7 @@ const programmingLanguages = [
 
 export const Body: React.FC = () => {
     return (
-        <div className="flex items-center justify-center bg-color mx-auto px-4 pt-36">
+        <div className="flex items-center justify-center bg-color mx-auto px-4 pt-32">
             <section className="rounded-lg p-6">
                 <h2 className="flex items-center justify-center text-3xl font-semibold mb-4">About Me</h2>
                 <p className="text-lg mx-auto max-w-prose w text-center">
@@ -72,7 +72,12 @@ export const Body: React.FC = () => {
                     If you see anything interesting here or on my <a href="/Rahel_Joshi_s_Resume_2024.pdf" target="_blank" className="link">resume</a>, please reach out to me on <a href='https://www.linkedin.com/in/rahel-j-49a55a236/' target="_blank" className="link">LinkedIn</a> or at <a href="mailto:rrjoshi@caltech.edu" className="link">rrjoshi@caltech.edu</a>.
                 </p>
                 <div className='flex items-center justify-center gap-20 py-8'>
-                    <a className='image-container' href='https://github.com/Rahel-Joshi' target="_blank">
+                    <img 
+                        src="/pic.png" 
+                        alt="Picture" 
+                        className="w-32 h-32" 
+                    />
+                    <a href='https://github.com/Rahel-Joshi' target="_blank">
                         <img 
                         src="/github-blue.png" 
                         alt="Github" 
@@ -86,6 +91,12 @@ export const Body: React.FC = () => {
                         className="w-32 h-32 mx-auto mb-4 image" 
                         />
                     </a>
+
+                    <img 
+                        src="/caltech.png" 
+                        alt="Caltech" 
+                        className="w-32 h-32" 
+                    />
                 </div>
                 <h2 className="flex items-center justify-center text-3xl font-semibold mb-4">Skills</h2>
                 <div className="flex flex-col">

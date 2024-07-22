@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const Header = () => {
     return (
-        <nav className='hd-color text-white p-6 fixed w-full'>
+        <nav className='hd-color text-white p-4 fixed w-full'>
         <div className="container mx-auto flex justify-between items-center">
             <div className="flex gap-5">
                 <img 

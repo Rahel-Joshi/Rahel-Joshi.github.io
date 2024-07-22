@@ -13,10 +13,13 @@
   text-decoration: underline;
   padding: 5px;
   border-bottom:2px solid white;
+  transition: .3s;
+  filter: saturate(0%) brightness(300%);
 }
 
 .image:hover {
   transition: .3s;
+  filter: saturate(100%) brightness(100%);
   border-bottom:2px solid #3b82f6;
 }
 

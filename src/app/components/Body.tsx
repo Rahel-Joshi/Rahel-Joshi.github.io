@@ -60,7 +60,7 @@ const programmingLanguages = [
 
 export const Body: React.FC = () => {
     return (
-        <div className="flex items-center justify-center bg-color mx-auto px-4 py-36">
+        <div className="flex items-center justify-center bg-color mx-auto px-4 pt-36">
             <section className="rounded-lg p-6">
                 <h2 className="flex items-center justify-center text-3xl font-semibold mb-4">About Me</h2>
                 <p className="text-lg mx-auto max-w-prose w text-center">
@@ -73,14 +73,14 @@ export const Body: React.FC = () => {
                 <div className='flex items-center justify-center gap-20 py-8'>
                     <a className='image-container' href='https://github.com/Rahel-Joshi' target="_blank">
                         <img 
-                        src="/github.png" 
+                        src="/github-blue.png" 
                         alt="Github" 
                         className="image w-32 h-32 mx-auto mb-4" 
                         />
                     </a>
                     <a href='https://www.linkedin.com/in/rahel-j-49a55a236/' target="_blank">
                         <img 
-                        src="/in.png" 
+                        src="/blue-in.png" 
                         alt="Linkedin" 
                         className="w-32 h-32 mx-auto mb-4 image" 
                         />

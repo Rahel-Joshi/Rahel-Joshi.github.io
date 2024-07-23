@@ -5,7 +5,7 @@ export const Header = () => {
     return (
         <nav className='hd-color text-white p-4 fixed w-full'>
         <div className="container mx-auto flex justify-between items-center">
-            <div className="flex gap-5">
+            <div className="flex gap-5 items-center ">
                 <img 
                 src="/img.png" 
                 alt="Icon" 

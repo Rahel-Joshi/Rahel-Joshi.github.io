@@ -69,7 +69,8 @@ export const Body: React.FC = () => {
                     internships and opportunities in industry. I&#39;m currently working at Caltech as an Undergraduate Research
                     Fellow in the High Energy Astrophysics Group, using Python and Pytorch to emulate X-Ray Spectra from Black Holes
                     and Neutron Stars collected by NASA/JPL/Caltech&#39;s NuSTAR [<a href="/SURF_2024_Proposal.pdf" target="_blank" className="link">Proposal</a>, <a href="/SURF_Report_1.pdf" target="_blank" className="link">Report 1</a>].
-                    If you see anything interesting here or on my <a href="/Rahel_Joshi_s_Resume_2024.pdf" target="_blank" className="link">resume</a>, please reach out to me on <a href='https://www.linkedin.com/in/rahel-j-49a55a236/' target="_blank" className="link">LinkedIn</a> or at <a href="mailto:rrjoshi@caltech.edu" className="link">rrjoshi@caltech.edu</a>.
+                    If you see anything interesting here or on my <a href="/Rahel_Joshi_s_Resume_2024.pdf" target="_blank" className="link">Resume</a> or <a href="https://github.com/Rahel-Joshi" target="_blank" className="link">Github</a>
+                    , please reach out to me on <a href='https://www.linkedin.com/in/rahel-j-49a55a236/' target="_blank" className="link">LinkedIn</a> or at <a href="mailto:rrjoshi@caltech.edu" className="link">rrjoshi@caltech.edu</a>.
                 </p>
                 <div className='flex items-center flex-col md:flex-row justify-center gap-20 py-8'>
                     <img 
@@ -98,7 +99,7 @@ export const Body: React.FC = () => {
                         className="w-32 h-32 mx-auto sm:mx-0" 
                     />
                 </div>
-                <h2 className="flex items-center justify-center text-3xl font-semibold mb-4">Skills</h2>
+                <h2 className="flex items-center justify-center text-3xl font-semibold mb-4 mt-8">Skills</h2>
                 <div className="flex flex-col">
                     <div className="p-0">
                         <span className="font-bold">Languages: </span>
@@ -115,7 +116,7 @@ export const Body: React.FC = () => {
                 </div>
 
 
-                <div className="container mx-auto px-4 py-12">
+                <div className="container mx-auto px-4 py-12 mt-8">
                     <div className="flex justify-center gap-10">
                         <div className="">
                             <h3 className="text-center text-3xl font-semibold mb-2">Courses Taken</h3>

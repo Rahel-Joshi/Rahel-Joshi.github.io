@@ -5,7 +5,13 @@
 @layer base {
   html {
       @apply bg-color;
+      scroll-behavior: smooth !important;
   }
+}
+
+#projects {
+  scroll-margin-top: 80px;
+  scroll-behavior: smooth !important;
 }
 
 .image {

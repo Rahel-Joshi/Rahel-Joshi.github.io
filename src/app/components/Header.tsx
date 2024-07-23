@@ -18,6 +18,7 @@ export const Header = () => {
             
             <div className="flex gap-5 text-lg space-x-4">
                 <Link className='link' href="/">Home</Link>   
+                <Link className='link' href="#projects">Projects</Link>   
                 <Link className='link' href="/Rahel_Joshi_s_Resume_2024.pdf" target="_blank">Resume</Link>  
             </div>
         </div>

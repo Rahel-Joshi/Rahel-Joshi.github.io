@@ -44,7 +44,7 @@ export const Projects: React.FC = () => {
                         real-time sonification. ECG signals were collected using electrodes, AD8232 heart rate monitor, and an Arduino,
                         and also from the MIT-BIH Arrhythmia dataset. The ECG data then underwent various signal processing methods, particularly
                         denoising through Fast Fourier Transforms and Wavelet Transforms, as well as identification and amplification of the P, R, and T waves. This research was conducted
-                        under Dr. Bashir Morshed during the Texas Tech Clark Scholars program [<a className='link' target='_blank' href="/ECG_Sonification.pdf">ECG Sonification Paper</a>]. </p>
+                        under Dr. Bashir Morshed during the Texas Tech Clark Scholars program [<a className='link' target='_blank' href="/ECG_Sonification.pdf">ECG Sonification Paper</a>, <a className='link' target='_blank' href="/ECG Slides.pdf">Poster</a>]. </p>
                 </div>
                 <p className="pt-6 text-white text-center">Tech Stack: Python, Jupyter Notebook, Matplotlib, Numpy, Seaborn, Pandas, Scipy, Scikit-learn, Scikit-image</p>
             </div>

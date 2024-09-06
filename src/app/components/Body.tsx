@@ -38,10 +38,10 @@ const programmingLanguages = [
   ];
 
   const coursesTaken = [
-    "CS 1x: Intermediate Computer Programming",
+    "CS 1x: Intro Computer Programming",
     "CS 2: Data Structures",
-    "CS 3: Object Oriented Software Desgin",
-    "CS 12: Tensorflow",
+    "CS 3: Object Oriented Software Design",
+    "CS 12: Tensorflow Lab",
     "CS 21: Theory of Computation",
     "Ma 1abc: Multivariable Calculus & Linear Algebra",
   ]
@@ -51,9 +51,10 @@ const programmingLanguages = [
     "CS 24: Computer Systems & Architecture",
     "CS 38: Algorithms",
     "CS 121: Relational Databases",
-    "CS 148: Large Language & Vision Models",
     "CS 155: Machine Learning & Data Mining",
     "CS 156ab: Learning Systems, Intro to Machine Learning",
+    "CS 124: Advanced Operating Systems",
+    "CS 164: Programming Languages & Compilers",
     "Ma 2: Differential Equations",
     "Ma 6a: Discrete Math",
     "ACM 104: Applied Linear Algebra",
@@ -68,8 +69,8 @@ export const Body: React.FC = () => {
                     Hi, I&#39;m Rahel, a second-year student at Caltech studying computer science. I am currently looking for
                     internships and opportunities in industry. I&#39;m currently working at Caltech as an Undergraduate Research
                     Fellow in the High Energy Astrophysics Group, using Python and Pytorch to emulate X-Ray Spectra from Black Holes
-                    and Neutron Stars collected by NASA/JPL/Caltech&#39;s NuSTAR [<a href="/SURF_2024_Proposal.pdf" target="_blank" className="link">Proposal</a>, <a href="/SURF_Report_1.pdf" target="_blank" className="link">Report 1</a>].
-                    If you see anything interesting here or on my <a href="/Rahel_Joshi_s_Resume_2024.pdf" target="_blank" className="link">Resume</a> or <a href="https://github.com/Rahel-Joshi" target="_blank" className="link">Github</a>
+                    and Neutron Stars collected by NASA/JPL/Caltech&#39;s NuSTAR [<a href="/SURF_2024_Proposal.pdf" target="_blank" className="link">Proposal</a>, <a href="/SURF_Report_1.pdf" target="_blank" className="link">Report 1</a>, <a href="/SURF Slides.pdf" target="_blank" className="link">Presentation</a>, <a href="https://github.com/Rahel-Joshi/X-Ray-Spectra-Emulator" target="_blank" className="link">Github Repo</a>].
+                    If you see anything interesting here or on my <a href="/Rahel_Joshi_Resume.pdf" target="_blank" className="link">Resume</a> or <a href="https://github.com/Rahel-Joshi" target="_blank" className="link">Github</a>
                     , please reach out to me on <a href='https://www.linkedin.com/in/rahel-j-49a55a236/' target="_blank" className="link">LinkedIn</a> or at <a href="mailto:rrjoshi@caltech.edu" className="link">rrjoshi@caltech.edu</a>.
                 </p>
                 <div className='flex items-center flex-col md:flex-row justify-center gap-20 py-8'>

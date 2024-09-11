@@ -46,7 +46,7 @@ export const Projects: React.FC = () => {
                         {/* [<a className='link' target='_blank' href="https://github.com/Rahel-Joshi/Physics-Engine/tree/main">Source Code</a>]. */}
                     </p>
                 </div>
-                <p className="pt-6 text-white text-center" id='movie_finder'>Tech Stack: Java, Gitlab, Javascript, CSS, HTML, Open Street Map</p>
+                <p className="pt-6 text-white text-center" id='movie_finder'>Tech Stack: Java, Gitlab, Javascript, CSS, HTML, Open Street Map Dataset</p>
             </div>
 
 

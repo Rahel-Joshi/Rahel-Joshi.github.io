@@ -27,7 +27,7 @@ export const Body: React.FC = () => {
             >
               slides
             </a>
-            . I&apos;m passionate about quantitative trading, software engineering, and machine learning.
+            . Moreover, I&apos;m passionate about quantitative trading, software engineering, and machine learning.
           </p>
           <p className="mb-4">Feel free to check out my social profiles or contact me:</p>
           <div className="flex justify-center gap-4">

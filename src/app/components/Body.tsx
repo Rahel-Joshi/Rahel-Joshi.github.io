@@ -48,7 +48,7 @@ export const Body: React.FC = () => {
               LinkedIn
             </a>
             <a
-              href="https://instagram.com/yourhandle"
+              href="https://instagram.com/rahel.joshi"
               target="_blank"
               rel="noreferrer"
               className="text-blue-400 hover:text-blue-500"

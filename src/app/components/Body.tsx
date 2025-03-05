@@ -7,9 +7,9 @@ export const Body: React.FC = () => {
       {/* About Section */}
       <section id="about" className="pt-20 mb-16">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Hi, I'm Rahel</h2>
+          <h2 className="text-3xl font-bold mb-4">Hi, I&apos;m Rahel</h2>
           <p className="mb-4">
-            I'm a second year student at Caltech. I've just finished my SURF — check out my{" "}
+            I&apos;m a second year student at Caltech. I&apos;ve just finished my SURF — check out my{" "}
             <a
               href="https://github.com/Rahel-Joshi/SURF2024"
               target="_blank"
@@ -27,7 +27,7 @@ export const Body: React.FC = () => {
             >
               slides
             </a>
-            . I'm passionate about quantitative trading, software engineering, and machine learning.
+            . I&apos;m passionate about quantitative trading, software engineering, and machine learning.
           </p>
           <p className="mb-4">Feel free to check out my social profiles or contact me:</p>
           <div className="flex justify-center gap-4">
@@ -48,7 +48,7 @@ export const Body: React.FC = () => {
               LinkedIn
             </a>
             <a
-              href="https://instagram.com/rahel.joshi"
+              href="https://instagram.com/yourhandle"
               target="_blank"
               rel="noreferrer"
               className="text-blue-400 hover:text-blue-500"
@@ -73,7 +73,7 @@ export const Body: React.FC = () => {
                 Summer Undergrad Research Fellow (SURF) @ Caltech
               </h3>
               <p className="mt-2">ML to emulate black hole x-ray spectra</p>
-              <p className="mt-1 text-sm text-gray-400">May 2024 - August 2024</p>
+              <p className="mt-1 text-sm text-gray-400">May 2024 - Present</p>
             </div>
             {/* Experience Item 2 */}
             <div className="p-4 border border-gray-700 rounded-lg text-center">
@@ -119,7 +119,7 @@ export const Body: React.FC = () => {
                 </video>
               </div>
               <p className="text-gray-300 mb-3">
-                Designed a campus map app with real-time route visualization. Uses Dijkstra’s Algorithm, heaps, and hashmaps to find shortest paths between buildings. Interactive features include location search, zoom, and drag.
+                Designed a campus map app with real-time route visualization. Uses Dijkstra&apos;s Algorithm, heaps, and hashmaps to find shortest paths between buildings. Interactive features include location search, zoom, and drag.
               </p>
               <p className="text-sm text-gray-400">
                 Tech Stack: Java, GitLab, JavaScript, CSS, HTML, OpenStreetMap

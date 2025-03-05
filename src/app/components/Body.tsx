@@ -5,7 +5,7 @@ export const Body: React.FC = () => {
   return (
     <>
       {/* About Section */}
-      <section id="about" className="pt-20 mb-16">
+      <section id="about" className="pt-32 mb-16">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Hi, I&apos;m Rahel</h2>
           <p className="mb-4">

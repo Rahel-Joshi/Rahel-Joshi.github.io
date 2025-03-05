@@ -9,9 +9,9 @@ export const Body: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Hi, I&apos;m Rahel</h2>
           <p className="mb-4">
-            I&apos;m a second year student at Caltech. I&apos;ve just finished my SURF — check out my{" "}
+            I&apos;m a second year student at Caltech. Most recently over the summer I worked on applying neural networks to astrophysics — check out my{" "}
             <a
-              href="https://github.com/Rahel-Joshi/SURF2024"
+              href="https://github.com/Rahel-Joshi/X-Ray-Spectra-Emulator"
               target="_blank"
               rel="noreferrer"
               className="text-blue-400 hover:text-blue-500"

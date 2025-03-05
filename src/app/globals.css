@@ -1,80 +1,26 @@
+/* globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   html {
-      @apply bg-color;
-      scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
   }
 }
 
-#projects {
-  scroll-margin-top: 80px;
-  scroll-behavior: smooth !important;
-}
-
-.image {
-  position: relative;
-  text-decoration: underline;
-  padding: 5px;
-  border-bottom:2px solid white;
-  transition: .3s;
-  filter: saturate(0%) brightness(300%);
-}
-
-.image:hover {
-  transition: .3s;
-  filter: saturate(100%) brightness(100%);
-  border-bottom:2px solid #3b82f6;
-}
-
-.link {
-  color: inherit;
-  transition: color 0.3s;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-.link:hover {
-  color: #3b82f6;
-}
-
-.hd-color {
-  z-index: 10;
-  background-color: #303f70;
+body {
+  @apply bg-color text-white;
 }
 
 .bg-color {
   background-color: #1b1b1e;
 }
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.link {
+  @apply underline transition-colors;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.link:hover {
+  color: #3b82f6;
 }

@@ -19,9 +19,7 @@ export default function Home() {
           type="image/<generated>"
           sizes="<generated>"
         />
-        <Header/>
         <Body/>
-        <Projects/>
       </div>
   );
 }

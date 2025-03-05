@@ -73,7 +73,7 @@ export const Body: React.FC = () => {
                 Summer Undergrad Research Fellow (SURF) @ Caltech
               </h3>
               <p className="mt-2">ML to emulate black hole x-ray spectra</p>
-              <p className="mt-1 text-sm text-gray-400">May 2024 - Present</p>
+              <p className="mt-1 text-sm text-gray-400">May 2024 - August 2024</p>
             </div>
             {/* Experience Item 2 */}
             <div className="p-4 border border-gray-700 rounded-lg text-center">
